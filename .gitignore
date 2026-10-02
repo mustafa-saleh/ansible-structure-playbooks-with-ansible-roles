@@ -1,0 +1,23 @@
+node_modules/
+tmp
+build/
+project-vars
+
+**/.DS_Store
+**/.idea
+**/build
+**/out
+**/.gradle
+
+**/project-vars
+
+# local .terraform dir
+**/.terraform/*
+
+# tf state files
+**/*.tfstate
+**/*.tfstate.*
+
+# tf variable files, may include sensitive data
+**/*.tfvars
+!**/example.tfvars
